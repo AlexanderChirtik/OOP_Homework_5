@@ -7,7 +7,11 @@ import org.example.View.View;
 
 import java.util.*;
 
-public class Controller {
+public class Controller implements ControllerStart {
+
+    /**
+     * Создан интерфейс ControllerStart для защиты класса Controller от модификации (Open closed principle)
+     */
 
     View view = new View();
     StudyGroupServiceFind sgs = new StudyGroupServiceFind();
