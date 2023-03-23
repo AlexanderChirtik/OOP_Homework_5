@@ -6,9 +6,7 @@ import org.example.User;
 
 import java.util.List;
 
-public interface DataService{
-    void create(Student student);
-    void create(Teacher teacher);
+public interface FindDataService {
 
     List<User> findGroupID(int id);
     Student findStudentID(int id);

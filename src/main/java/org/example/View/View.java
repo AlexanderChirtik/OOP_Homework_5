@@ -7,7 +7,7 @@ import java.util.List;
 public class View implements Menu, ShowUsers {
 
     /**
-     * Создание интерфейсов Menu и ShowUsers, которые будут определять поведение класса View.
+     * Созданы интерфейсы Menu и ShowUsers, которые будут определять поведение класса View.
      * Методы разделены на 2 интерфейса согласно принципу Interface segregation principle.
      */
     public void menu(){

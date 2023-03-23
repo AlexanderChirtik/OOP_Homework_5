@@ -1,7 +1,7 @@
 package org.example.Controller;
 
 import org.example.Student;
-import org.example.Model.StudyGroupService;
+import org.example.Model.StudyGroupServiceFind;
 import org.example.Teacher;
 import org.example.View.View;
 
@@ -10,7 +10,7 @@ import java.util.*;
 public class Controller {
 
     View view = new View();
-    StudyGroupService sgs = new StudyGroupService();
+    StudyGroupServiceFind sgs = new StudyGroupServiceFind();
     public void start(){
         System.out.println();
         view.menu();

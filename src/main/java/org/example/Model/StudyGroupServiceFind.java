@@ -7,8 +7,11 @@ import org.example.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudyGroupService implements DataService {
+public class StudyGroupServiceFind implements FindDataService, CreateDataService {
 
+    /**
+     *  Интерфейс DataService разделен на 2 интерфейса (создание и поиск) согласно принципу Interface segregation principle.
+     */
     private List<Student> students = new ArrayList<>();
     private List<Teacher> teachers = new ArrayList<>();
 
