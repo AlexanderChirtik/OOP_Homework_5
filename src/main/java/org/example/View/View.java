@@ -4,9 +4,12 @@ import org.example.User;
 
 import java.util.List;
 
-public class View {
+public class View implements Menu, ShowUsers {
 
-
+    /**
+     * Создание интерфейсов Menu и ShowUsers, которые будут определять поведение класса View.
+     * Методы разделены на 2 интерфейса согласно принципу Interface segregation principle.
+     */
     public void menu(){
         System.out.println("Меню");
         System.out.println("1 - добавить в базу студента");
